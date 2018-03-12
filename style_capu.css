@@ -28,10 +28,7 @@ z-index: 2;
 
 
 /* LOGO*/
-.text-center{
 
-
-}
 /*NAVBAR*/
 
 .navbar-default .navbar-nav > li > a {
@@ -56,9 +53,6 @@ z-index: 2;
 .slide
 {
 	margin-top:-20px;
-
-
-
 }
 
 .carousel-inner > .item > img {
