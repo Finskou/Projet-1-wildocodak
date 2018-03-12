@@ -1,0 +1,121 @@
+/*GENERAL*/
+
+
+
+#logonav{
+
+position:relative;
+z-index: 2;
+}
+#foot{
+
+position:relative;
+z-index: 2;
+}
+
+#myCarousel{
+position:relative;
+z-index: 4;	
+	width:100%;
+	height:100%;
+}
+
+#site{
+position:relative;
+z-index: 2;	
+
+}
+
+
+/* LOGO*/
+.text-center{
+
+
+}
+/*NAVBAR*/
+
+.navbar-default .navbar-nav > li > a {
+	font-size: 30px;
+	color: white;
+	margin-top: 0px;
+	font-family: "Lobster", cursive;
+}
+
+.navbar-default{
+	background-color: black;
+	border-color: transparent;
+}
+
+.navbar .navbar-nav > li > a:hover{
+	color: orange;
+
+}
+
+
+/*Caroussel*/
+.slide
+{
+	margin-top:-20px;
+
+
+
+}
+
+.carousel-inner > .item > img {
+
+
+}
+
+/*
+.caroussel_centre{
+width:80%;
+margin:auto;
+
+}
+*/
+
+/*FOOTER */
+
+.footitem{
+	padding:10px;
+	text-align: center;
+}
+
+
+.icone_reseaux{
+	padding:10px;
+	display:inline;
+}
+
+.icone_reseaux > a > img {
+	/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+	-webkit-transition: all 0.5s ease; /* Safari et Chrome */
+	-moz-transition: all 0.5s ease; /* Firefox */
+	-ms-transition: all 0.5s ease; /* Internet Explorer 9 */
+	-o-transition: all 0.5s ease; /* Opera */
+	transition: all 0.5s ease;
+}
+
+
+.icone_reseaux > a > img:hover {
+	/* L'image est grossie de 25% */
+	-webkit-transform:scale(1.20); /* Safari et Chrome */
+	-moz-transform:scale(1.20); /* Firefox */
+	-ms-transform:scale(1.20); /* Internet Explorer 9 */
+	-o-transform:scale(1.20); /* Opera */
+	transform:scale(1.20);
+}
+
+footer .row {
+	color: white;
+	margin-top: 15px;
+}
+
+footer .container-fluid{
+	background-color: #333333;
+}
+
+footer .row a{
+	color: white;
+}
+
