@@ -87,7 +87,7 @@ html {
 body {  
 
   position: relative;
-  margin-bottom: 100;
+
   background-color: transparent;
   
 }
@@ -106,8 +106,9 @@ body {
 /*FOOTER */
 
 .footitem{
-  padding:10px;
+  padding: 5px;
   text-align: center;
+
 }
 
 
@@ -137,15 +138,20 @@ body {
 
 footer .row {
   color: white;
-  margin-top: 15px;
-  font-weight: bold;
 }
 
 footer .container-fluid{
-  background-color:#666666;
+  background-color:#333333;
+
 }
 
 footer .row a{
   color: white;
-  font-weight: bold;
 }
+
+footer {
+width: 100%;
+
+position: fixed;
+  bottom: 0; left: 0; right: 0
+
